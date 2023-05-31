@@ -22,3 +22,5 @@ As stated earlier, Tklib2 is under the public domain. Feel free to do anything w
 
 ## Contributing
 If you'd like to contribute to Tklib2, create a branch / virtual enviroment / etc. and make your changes. Then fire up a PR and wait for the commit.
+
+### Tklib2 stands with Ukraine 🇺🇦
