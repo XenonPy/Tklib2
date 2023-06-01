@@ -21,6 +21,6 @@ At the time of writing, Tklib2 is still under heavy development. It is not recom
 As stated earlier, Tklib2 is under the public domain. Feel free to do anything with it (except 2 exceptions stated in the first section).
 
 ## Contributing
-If you'd like to contribute to Tklib2, create a branch / virtual enviroment / etc. and make your changes. Then fire up a PR and wait for the commit.
+If you'd like to contribute to Tklib2, follow the guidelines in CONTRIBUTING.md
 
 ### Tklib2 stands with Ukraine 🇺🇦
