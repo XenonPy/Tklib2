@@ -5,7 +5,7 @@ It covers everything as of version 0.2 (the first beta release).
 ## Installing Tklib2 
 Download the source code from the releases page.
 Then, decompress the file. Put the unzipped contents in a folder named 'tklib2' and load it into your Python project.
-A CDN installation script is coming in the near future (expect it in the 0.3-beta).
+A CDN installation script is coming in the near future (expect it in the 0.5-beta).
 
 ## Importing Tklib2
 ```python
@@ -76,7 +76,6 @@ Here are the lines we haven't seen yet explained:
 ### Good Job!
 You've finished reading the Tklib2 documentation!
 Stay tuned for these new features planed for 0.3:
-- CDN installation 
 - Change default cursor
 - Change text symbol when typing in textboxes (password input!)
 - Tkinter Messageboxes in Tklib2
