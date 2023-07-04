@@ -22,8 +22,8 @@ def Button(textContent, callbackFunctionName):
     newButton.pack()
 
 
-def Textbox(name):
-    newTextBox = tk.Entry(window, width=30)
+def Textbox(name, width):
+    newTextBox = tk.Entry(window, width)
     newTextBox.pack()
     # Store reference to the newly created textbox
     textboxes[name] = newTextBox
