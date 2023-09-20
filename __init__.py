@@ -37,15 +37,5 @@ def GetText(name):
     else:
         print(f"Textbox with name '{name}' does not exist.")
         return ''
-
-def TaggedLabel(textContent, ID):
-    os.system("python3 import tkinter as tk")
-    os.system("python3 import os")
-    os.system(f"python3 {ID} = tk.Label(window, {textContent})")
-    os.system(f"python3 {ID}.pack()")
-def DeleteLabel(ID):
-    os.system("python3 import tkinter as tk")
-    os.system("python3 import os")
-    os.system(f"python3 {ID}.destroy()")
 def runApp():
     tk.mainloop()
