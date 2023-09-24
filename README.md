@@ -21,8 +21,8 @@ At the time of writing, Tklib2 is still under heavy development. It is not recom
 As stated earlier, Tklib2 is under the public domain. Feel free to do anything with it (except 2 exceptions stated in the first section).
 
 ## Updates
-v0.2: The first beta has now been released! This version adds textboxes and some improvements.
-v0.3: This Alpha release adds tagged textboxes, and more improvements.
+* v0.2: The first beta has now been released! This version adds textboxes and some improvements.
+* v0.3: This beta release adds colored labels, images, and more!
 
 ## Contributing
 If you'd like to contribute to Tklib2, follow the guidelines in CONTRIBUTING.md
