@@ -6,7 +6,7 @@ That means you can do essentially anything you want with it, but expressly grant
 
 ## About Tklib2
 Tklib2 packages different Tkinter components into simple functions, for example:
-```python
+```
 import tklib2
 tklib2.Label("Hello World")
 tklib2.runApp()
