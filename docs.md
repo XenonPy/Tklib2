@@ -54,7 +54,24 @@ The code we haven't seen yet is the following:
 This creates a button. The first parameter is the button text, and the second is the **name** of the callback fuction.
 Notice there are no parentheses. This stops you from adding parameters, but since a button press is just one boolean, you probably won't be needing these.
 
-## Inputs in Tklib2
+## Labels in Tklib2
+Labels are pretty straightforward:
+```python
+import tklib2 as tklib
+tklib.Label("Hello Tklib2!")
+tklib.Label("This text is blue!", "#56aaff")
+```
+The first parameter is the text. The second is optional and specifies the color as a string (in hex format).
+
+## Images in Tklib2
+Images are easy too!
+```python
+import tklib2 as tklib
+banana = Image('banana.png', 10)
+```
+The first parameter is the image path. The second is again optional and is the padding as an **integer**. It defaults to 5.
+
+## Textboxes in Tklib2
 Now consider this code:
 ```python
 import tklib2 as tklib
