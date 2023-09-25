@@ -1,7 +1,7 @@
 # Tklib2
 Tklib2 is an open-source Python library that aims to facilitate the creation of Python apps with GUIs.
 
-Tklib2 is open source and governed by the MIT license. 
+Tklib2 is open source and governed by the Eclipse Public v2.0 license. 
 
 ## About Tklib2
 Tklib2 packages different Tkinter components into simple functions, for example:
