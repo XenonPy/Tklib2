@@ -19,7 +19,7 @@ While some people may find just using normal Tkinter syntax easier, this format 
 ## Tklib2 right now
 At the time of writing, Tklib2 is still under heavy development. It is not recommended to be used in production, but if you'd like to accelerate the production launch to PyPi, feel free to contribute under the guidelines below.
 
-As stated earlier, Tklib2 is under the public domain. Feel free to do anything with it (except 2 exceptions stated in the first section).
+As stated earlier, Tklib2 is under multiple licenses: just read the license per-distro.
 
 ## Updates
 * v0.2: The first beta has now been released! This version adds textboxes and some improvements.
