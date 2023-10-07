@@ -67,7 +67,7 @@ The first parameter is the text. The second is optional and specifies the color 
 Images are easy too!
 ```python
 import tklib2 as tklib
-banana = Image('banana.png', 10)
+banana = tklib.Image('banana.png', 10)
 ```
 The first parameter is the image path. The second is again optional and is the padding as an **integer**. It defaults to 5.
 
