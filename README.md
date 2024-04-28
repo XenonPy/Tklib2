@@ -28,4 +28,3 @@ As stated earlier, Tklib2 is under multiple licenses: just read the license per-
 ## Contributing
 If you'd like to contribute to Tklib2, follow the guidelines in CONTRIBUTING.md
 
-### Tklib2 stands with Ukraine 🇺🇦
