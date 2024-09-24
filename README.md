@@ -22,8 +22,9 @@ At the time of writing, Tklib2 is still under heavy development. It is not recom
 As stated earlier, Tklib2 is under multiple licenses: just read the license per-distro.
 
 ## Updates
-* v0.2: The first beta has now been released! This version adds textboxes and some improvements.
-* v0.3: This alpha release adds colored labels, images, and more!
+* v0.3: The first beta has now been released! This version adds textboxes and some improvements.
+* v0.2: This alpha release adds colored labels, images, and more!
+* v0.1-nodocs: Basic functionality. This release doesn't include docs.
 
 ## Contributing
 If you'd like to contribute to Tklib2, follow the guidelines in CONTRIBUTING.md
