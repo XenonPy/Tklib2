@@ -7,7 +7,7 @@ Versions 0.2 and below are public domain.
 
 ## About Tklib2
 Tklib2 packages different Tkinter components into simple functions, for example:
-```
+```python
 import tklib2
 tklib2.Label("Hello World")
 tklib2.runApp()
@@ -23,7 +23,7 @@ As stated earlier, Tklib2 is under multiple licenses: just read the license per-
 
 ## Updates
 * v0.2: The first beta has now been released! This version adds textboxes and some improvements.
-* v0.3: This beta release adds colored labels, images, and more!
+* v0.3: This alpha release adds colored labels, images, and more!
 
 ## Contributing
 If you'd like to contribute to Tklib2, follow the guidelines in CONTRIBUTING.md
