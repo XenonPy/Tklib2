@@ -90,9 +90,23 @@ Here are the lines we haven't seen yet explained:
 `myname = tklib.GetText("firstname")`: The `GetText()` function gets the text value of a textbox based on a 'tag' parameter. The 'tag' parameter is also specified when creating a textbox (the second parameter is the width), so creating a textbox via `tklib.Textbox("NewTag", 30)` will bind the tag `NewTag` to the textbox. Then we can get it's content via `GetTag("NewTag")`. This is an exception to Tklib2's 'building block' grammar, as you **should** set it as the value of a variable and should **not** just write `tklib.GetTag("ExampleTag")` (You're not telling the computer where to store it!).
 `tklib.Textbox("firstname", 30)`: Creates a textbox. The first parameter binds the tag (see the line above), the second is the width of the textbox (just like in standard Tkinter).
 
+## Interacting with external stuff
+You don't have to just use Tklib2!
+```python
+import tklib2 as tklib
+import requests
+def getWeather():
+  res = requests.get("api.example.com/v1") # You can integrate anything Python can control with Tklib2
+  tklib.Label(res)
+tklib.WindowConfig(300, 300, "External Systems")
+tklib.Label("I wonder what temperature it is?")
+tklib.Button("Get the Weather", getWeather)
+tklib.runApp()
+```
+
 ### Good Job!
 You've finished reading the Tklib2 documentation!
-Stay tuned for these new features planed for 0.3:
+Stay tuned for these new features planned:
 - Change default cursor
 - Change text symbol when typing in textboxes (password input!)
 - Tkinter Messageboxes in Tklib2
